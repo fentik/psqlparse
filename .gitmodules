@@ -1,4 +1,4 @@
 [submodule "libpg_query"]
 	path = libpg_query
-	url = https://github.com/lfittl/libpg_query.git
+	url = https://github.com/fentik/libpg_query.git
 	branch = 9.5-latest
