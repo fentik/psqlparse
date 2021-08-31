@@ -21,7 +21,8 @@ Make sure you have bison and flex installed on your system.
         build_ext.run(self)
 
 
-USE_CYTHON = bool(os.environ.get('USE_CYTHON'))
+#USE_CYTHON = bool(os.environ.get('USE_CYTHON'))
+USE_CYTHON=1
 
 ext = '.pyx' if USE_CYTHON else '.c'
 
